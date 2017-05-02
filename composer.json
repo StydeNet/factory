@@ -1,0 +1,24 @@
+{
+    "name": "styde/factory",
+    "description": "Generate and build model factories for Laravel using classes and methods instead of closures",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Duilio Palacios",
+            "email": "duilio@styde.net"
+        }
+    ],
+    "require": {
+        "php": ">=  5.6.4",
+        "laravel/framework": "5.4.*",
+        "fzaninotto/faker": "~1.4"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Styde\\Factory\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
