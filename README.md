@@ -5,7 +5,7 @@ This packages allows you to build model factories
  
 ## How to install
 
-Install by running composer `require styde/factory:"dev-master" --dev`
+Install by running `composer require styde/factory:"dev-master" --dev`
  or adding `"styde/factory": "dev-master"` to the dev dependencies (`require-dev`) in the project's composer.json file
   and then running composer update. 
 
